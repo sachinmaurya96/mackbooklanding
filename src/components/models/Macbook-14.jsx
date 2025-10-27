@@ -17,7 +17,7 @@ export function MacbookModel14(props) {
         }
       }
     })
-  },[color])
+  },[color,scene])
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Object_10.geometry} material={materials.PaletteMaterial001} rotation={[Math.PI / 2, 0, 0]} />
